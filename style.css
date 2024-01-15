@@ -1,0 +1,210 @@
+/* ##### Color
+brown: #523728; 
+background:  #FFF8E1;
+background: Green #53A623 ,
+light brown #745545;
+date-background: #BB6939;
+contact-background: #FCAE36;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./images/MAIN\ BG.png") center/cover no-repeat;
+    
+}
+
+.header{
+  margin:50px 100px 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar{
+    background:#523728 ;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul li{
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+.nav-bar ul li:nth-child(1){
+    padding-left: 0;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.button{
+    color: #523728;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: #523728;
+}
+
+/* ******************BITE***************** */
+.bite{
+    margin: -100px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bite-item h1{
+    line-height: 50px;
+    font-size: 50px;
+    color: #523728;
+}
+
+.bite-item p{
+    font-size: 18px;
+margin: 30px 0;
+line-height: 25px;
+color: #523728;
+}
+
+.btns{
+    display: flex;
+}
+
+.btns button{
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+}
+
+.btn-1{
+    background: #523728;
+    color: white;
+    margin-right: 15px;
+}
+
+.btn-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: #523728;
+    border-color: #523728;
+}
+
+.btn-2 img{
+    margin-right: 10px;
+}
+
+.bite-img img{
+    transform: translateX(50px);
+}
+
+/* **********ABOUT************ */
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -50px 100px;
+}
+
+.about-img{
+    transform: translateX(-35px);
+}
+
+.about-item{
+    margin-left: 50px;
+    margin-top: 130px;
+}
+
+.about-item h1{
+    font-size: 50px;
+    color: #523728;
+}
+
+.about-item p{
+font-size: 18px;
+margin: 30px 0;
+line-height: 25px;
+color: #523728;
+}
+
+.about-item .discover{
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+
+.about-item button{
+    background: #523728;
+    color: white;
+    margin-right: 15px;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/* *************MENU************ */
+.menu{
+    margin: 200px 100px;
+     
+}
+
+.title{
+    text-align: center;
+    color: #523728;
+    margin: 30px 0;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.item{
+    background:  #FFF8E1;
+    border-radius: 20px;
+    padding: 30px 35px;
+    width: 350px;
+}
+
+.content{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.content h2{
+    color:  #1D2729;
+    
+}
+
+.content p{
+     color : #555555;
+     
+}
+ 
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+span.dollar{
+    color: #53A623;
+}
