@@ -6,8 +6,16 @@ light brown #745545;
 date-background: #BB6939;
 contact-background: #FCAE36;
 
+
+font-family: 'Inika', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;500;600;700&family=Outfit:wght@500&family=Poppins:wght@500&family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -46,12 +54,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 100px 0;
+    padding: 18% 0;
 }
 
 .nav-bar ul li{
     list-style-type: none;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .nav-bar ul li:nth-child(1){
@@ -62,6 +70,8 @@ body{
     text-decoration: none;
     display: block;
     color: #523728;
+    font-family: 'Inter', sans-serif;
+font-weight: 600;
 }
 
 .nav-bar button{
@@ -71,6 +81,8 @@ body{
     border-radius: 20px;
     border-color: #523728;
     display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 .button{
     color: #523728;
@@ -79,6 +91,8 @@ body{
     border-radius: 20px;
     border-color: #523728;
     display: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 #check{
@@ -121,6 +135,8 @@ label #cancel{
     line-height: 50px;
     font-size: 50px;
     color: #523728;
+    font-family: 'Inika', serif;
+    font-weight: 400;
 }
 
 .bite-item p{
@@ -128,6 +144,8 @@ label #cancel{
 margin: 30px 0;
 line-height: 25px;
 color: #523728;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
 }
 
 .btns{
@@ -140,6 +158,8 @@ color: #523728;
     border-radius: 20px;
     width: 130px;
     height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .btn-1{
@@ -178,6 +198,8 @@ color: #523728;
 .about-item h1{
     font-size: 50px;
     color: #523728;
+    font-family: 'Inika', serif;
+    font-weight: 400;
 }
 
 .about-item p{
@@ -185,11 +207,14 @@ font-size: 18px;
 margin: 30px 0;
 line-height: 25px;
 color: #523728;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
 }
 
 .about-item .discover{
     margin: 10px 0 0 0;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about-item button{
@@ -199,6 +224,8 @@ color: #523728;
     width: 130px;
     height: 40px;
     border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 /* *************MENU************ */
@@ -218,6 +245,8 @@ color: #523728;
     color: #523728;
     margin: 30px 0 10px 0;
     font-size: 40px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
 }
 
  
@@ -238,11 +267,13 @@ color: #523728;
 
 .content h2{
     color:  #1D2729;
+    font-family: 'Inika', serif;
+    font-weight: 700;
 }
 
 .content p{
      color : #555555;
-     
+     font-family: 'Roboto', sans-serif;
 }
  
 .price{
@@ -254,10 +285,14 @@ color: #523728;
 
 .price h3{
     color:#745545;
+    font-family: 'Inter', sans-serif;
+font-weight: 470;
 }
 
 span.dollar{
     color: #53A623;
+    font-family: 'Inter', sans-serif;
+font-weight: 700;
 }
 
 /* ***************BLOG*************** */
@@ -289,24 +324,137 @@ span.dollar{
 
 .blog-content h3{
     color:   #BB6939;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
 }
 
 .blog-content h2{
     color: #734B33;
     margin: 15px 0;
     line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .blog-content p{
     color: #704B33;
     line-height: 25px;
     margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .blog-content h4{
     color: #704B33;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
+
+/* **********************CONTACT************ */
+.contact{
+    margin:100px 30px 30px;
+    text-align: center;
+}
+
+.contact-us h1{
+    color: #523728;
+    font-family: 'Inika', serif;
+    font-weight: 700;
+}
+
+.contact-us p{
+    margin: 15px 0 0 0;
+    color: #523728;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.contact-img{
+    transform: scale(0.8) translateX(-5%);
+}
+
+.contact-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #757575;
+}
+
+#message{
+  padding: 15px 15px 100px;
+}
+
+.contact-2 button{
+    background: #FCAE36;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.contact-3{
+    margin-top: 50px;
+}
+
+.icons .fa{
+    margin-right: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+ 
+.icons .fa:last-child{
+    margin-right: 0;
+}
+
+.icons .fa::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1111;
+}
+
+ 
+
+.fa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright{
+    color: #523728;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.copyright span{
+    color: white;
+}
 
 @media screen and (min-width:900px) and (max-width:1200px){
     .header{
@@ -461,6 +609,45 @@ span.dollar{
     align-items: center;
 }
 
+
+/* **********************CONTACT************ */
+.contact{
+    margin:100px 30px 30px;
+    text-align: left;
+}
+
+ .contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+ }
+
+ .contact-1{
+    width: 70%;
+ }
+
+.contact-us p{
+    margin: 15px 0 0 0;
+    color: #523728;
+}
+
+.contact-img{
+    transform: scale(0.8) translateX(-20%);
+}
+
+.contact-2{
+    display: block;
+    transform: translateY(15%);
+    width: 350px;
+}
+
+#message{
+  padding: 15px 15px 100px;
+}
+
+.contact-3{
+    margin-top: 30px;
+}
 }
  
 
@@ -586,7 +773,7 @@ span.dollar{
 
 .item{
     width: 400px;
-    height: 40%;
+    height: 400px;
     margin-right: 25px;
 }
 
@@ -598,7 +785,7 @@ span.dollar{
 .blog-1{
     padding: 30px ;
     width: 450px;
-    height: 650px;
+    height: 700px;
     margin-right: 25px;
 }
 
@@ -606,6 +793,44 @@ span.dollar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* **********************CONTACT************ */
+.contact{
+    margin:100px 100px 100px;
+    text-align: left;
+}
+
+ .contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+ }
+
+ .contact-1{
+    width: 70%;
+ }
+
+.contact-us p{
+    margin: 15px 0 0 0;
+    color: #523728;
+}
+
+.contact-img{
+    transform: scale(0.8) translateX(-10%);
+}
+
+.contact-2{
+    display: block;
+    transform: translateY(15%);width: 350px;
+}
+
+#message{
+  padding: 15px 15px 100px;
+}
+
+.contact-3{
+    margin-top: 50px;
 }
 
 }
